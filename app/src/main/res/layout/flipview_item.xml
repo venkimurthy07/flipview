@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@android:color/transparent"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background">
+
+            <TextView
+                android:id="@+id/fliptext_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                android:text="Hello world"
+                android:textSize="20sp"
+                android:typeface="sans"
+                app:fontFamily="monospace" />
+
+            <Button
+                android:typeface="sans"
+                app:fontFamily="monospace"
+                android:id="@+id/flip_one_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/btn_background"
+                android:text="Accept"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_two"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background">
+
+            <TextView
+                android:id="@+id/fliptext_two"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Hello world"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:typeface="sans"
+                app:fontFamily="monospace" />
+
+            <Button
+                android:typeface="sans"
+                app:fontFamily="monospace"
+                android:id="@+id/flip_two_btn"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/btn_background"
+                android:text="Accept"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
