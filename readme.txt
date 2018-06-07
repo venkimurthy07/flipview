@@ -1,4 +1,3 @@
 Flip view 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
- 
+![alt text](https://github.com/venkimurthy07/flipview/tree/master/app/flipview.gif “Flipview") 
 
