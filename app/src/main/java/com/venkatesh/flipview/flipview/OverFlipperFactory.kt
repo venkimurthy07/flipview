@@ -1,4 +1,5 @@
-package com.covacare.doctor.views.flipview
+package com.venkatesh.flipview.flipview
+
 
 /**
  * Created by Venkatesh on 07/06/18.

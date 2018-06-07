@@ -1,4 +1,4 @@
-package com.covacare.doctor.views.flipview
+package com.venkatesh.flipview.flipview
 
 import android.annotation.TargetApi
 import android.os.Build
