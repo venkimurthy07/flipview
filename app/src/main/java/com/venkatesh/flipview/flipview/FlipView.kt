@@ -28,10 +28,7 @@ import android.view.animation.Interpolator
 import android.widget.FrameLayout
 import android.widget.ListAdapter
 import android.widget.Scroller
-import com.covacare.doctor.views.flipview.OverFlipMode
-import com.covacare.doctor.views.flipview.OverFlipper
-import com.covacare.doctor.views.flipview.OverFlipperFactory
-import com.covacare.doctor.views.flipview.Recycler
+
 import com.venkatesh.flipview.R
 
 /**

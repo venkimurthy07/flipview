@@ -4,9 +4,10 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
-import com.covacare.doctor.views.flipview.FlipView
-import com.covacare.doctor.views.flipview.OverFlipMode
+
 import com.venkatesh.flipview.adapter.FlipViewAdapter
+import com.venkatesh.flipview.flipview.FlipView
+import com.venkatesh.flipview.flipview.OverFlipMode
 import com.venkatesh.flipview.helper.FlipUtil
 import com.venkatesh.flipview.helper.FlipUtil.Companion.chunks
 import com.venkatesh.flipview.interfaces.IFlipAdapterListener

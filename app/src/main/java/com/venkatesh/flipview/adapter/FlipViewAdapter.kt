@@ -9,7 +9,6 @@ import android.widget.BaseAdapter
 import android.widget.Button
 import android.widget.FrameLayout
 import android.widget.TextView
-import com.covacare.doctor.views.flipview.FlipView
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken

@@ -21,11 +21,11 @@
         android:typeface="sans"
         app:fontFamily="monospace" />
 
-    <com.covacare.doctor.views.flipview.FlipView
+    <com.venkatesh.flipview.flipview.FlipView
         android:id="@+id/flipview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp">
 
-    </com.covacare.doctor.views.flipview.FlipView>
+    </com.venkatesh.flipview.flipview.FlipView>
 </LinearLayout>
